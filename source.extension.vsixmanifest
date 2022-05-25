@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="SimpleArchitectureBackEndProject.1afc5636-43e8-4894-8971-1b1aea706ef1" Version="1.0" Language="en-US" Publisher="Taner Saydam" />
+        <DisplayName>SimpleArchitecture</DisplayName>
+        <Description xml:space="preserve">An N-Tier Architecture with SOLID principle and Clean Code technique. It is a complete n-tier architectural project for your project.</Description>
+        <MoreInfo>https://www.tanersaydam.net</MoreInfo>
+        <GettingStartedGuide>Simple Architecture Document.docx</GettingStartedGuide>
+        <ReleaseNotes>V.1.0</ReleaseNotes>
+        <Icon>architechture.png</Icon>
+        <PreviewImage>architechture.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\SimpleArchitecture.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
