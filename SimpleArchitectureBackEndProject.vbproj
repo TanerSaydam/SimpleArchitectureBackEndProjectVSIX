@@ -53,11 +53,11 @@
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ProjectTemplates\SimpleArchitecture.zip">
+    <Content Include="Simple Architecture Document.docx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Simple Architecture Document.docx">
+    <Content Include="ProjectTemplates\project.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
